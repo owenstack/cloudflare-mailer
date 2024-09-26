@@ -42,3 +42,15 @@ send_email = [
     {type = "send_email", name = "SEB", destination_address = "xxx"},
 ]
 ```
+
+### Body type
+
+```
+type Body = {
+	senderName: string;
+	senderAddress: string;
+	recipientAddress: string;
+	subject: string;
+	body: string;
+};
+```

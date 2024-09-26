@@ -4,7 +4,7 @@ compatibility_date = "2000-01-01"
 workers_dev = true
 
 send_email = [
-    {type = "send_email", name = "SEB", destination_address = "xxx"},
+    {type = "send_email", name = "SEB", destination_address = "jenukohaefobi@gmail.com"},
 ]
 
 [vars]
@@ -12,3 +12,6 @@ ALLOWED_ORIGINS = "*"
 RECIPIENT_ADDRESS = "*"
 SENDER_ADDRESS = "*"
 SENDER_NAME = "*"
+
+[observability]
+enabled = true

@@ -1,17 +1,18 @@
 {
-  "name": "email-worker",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "deploy": "wrangler deploy",
-    "dev": "wrangler dev",
-    "start": "wrangler dev"
-  },
-  "devDependencies": {
-    "wrangler": "^3.0.0"
-  },
-  "dependencies": {
-    "hono": "^3.12.8",
-    "mimetext": "^3.0.16"
-  }
+	"name": "email-worker",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.2",
+		"wrangler": "^3.0.0"
+	},
+	"dependencies": {
+		"hono": "^3.12.8",
+		"mimetext": "^3.0.16"
+	}
 }
